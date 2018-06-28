@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2b3cae-e9f5-47bc-b530-26f0bbef4c2f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_school/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_school/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_school/.idea/newlesson.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_school/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_school/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_school/image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend_school/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -133,12 +126,12 @@
       <workItem from="1530129842177" duration="1445000" />
       <workItem from="1530131355761" duration="16000" />
       <workItem from="1530213782712" duration="1933000" />
-      <workItem from="1530215768689" duration="481000" />
+      <workItem from="1530215768689" duration="2125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25977000" />
+    <option name="totallyTimeSpent" value="27621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
