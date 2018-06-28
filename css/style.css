@@ -1,0 +1,66 @@
+.sitecontainer{
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.headwrap{
+	overflow: hidden;
+	width: 100%;
+	height:900px;
+	text-align:center;
+}
+.zoominhead{
+	width: 100%;
+	height: 900px;
+	text-align: center;
+	background: url("../images/backlit-dark-evening-753994.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	position: relative;
+	animation: zoomin 7s ease-in infinite;
+	transition: all .5s ease-in-out;
+	overflow: hidden;
+}
+.zoomoutheader {
+	width:100%;
+	height:900px;
+	text-align:center;
+	background: none;
+	animation: zoomout 7s ease-in infinite;
+	transition: all .5s ease-in-out;
+	overflow: hidden;
+}
+.cover{
+	background-color: black;
+}
+header{
+	width: 100%;
+	height: 200px;
+}
+.logo{
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin-top:100px;
+	margin-left: 100px;
+}
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+	font-family: arial;
+}
+.logo span{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
