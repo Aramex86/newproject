@@ -18,7 +18,7 @@
     <favorites_list name="mark" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,8 +50,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="10" />
+    <option name="x" value="256" />
+    <option name="y" value="42" />
     <option name="width" value="1400" />
     <option name="height" value="980" />
   </component>
@@ -61,6 +61,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,7 +83,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,11 +127,20 @@
       <workItem from="1530131355761" duration="16000" />
       <workItem from="1530213782712" duration="1933000" />
       <workItem from="1530215768689" duration="2125000" />
+      <workItem from="1530556646519" duration="545000" />
     </task>
+    <task id="LOCAL-00001" summary="Done">
+      <created>1530556907081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530556907081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27621000" />
+    <option name="totallyTimeSpent" value="28166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -143,16 +152,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="10" width="1400" height="980" extended-state="0" />
+    <frame x="256" y="42" width="1400" height="980" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="667" y="46" width="346" height="928" id="Project" order="0" side_tool="true" visible="true" weight="0.16886932" />
+      <window_info active="true" content_ui="combo" x="667" y="46" width="346" height="928" id="Project" order="0" side_tool="true" visible="true" weight="0.16886932" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005952" side_tool="true" weight="0.32104123" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49940476" visible="true" weight="0.34163702" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49940476" visible="true" weight="0.34163702" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32966226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -169,6 +178,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
