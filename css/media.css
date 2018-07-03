@@ -1,106 +1,151 @@
-@media screen and (max-width: 767px){
-	.sitecontainer{
-		display: flex;
-		flex-direction: column;
-		width: 700px;
-		justify-content: center;
-	}
-	.menu{
-		display: block;
-    	padding-top: 50px;
-	}
-	.menu ul{
-    	display: block;
+@media screen and (max-width: 780px){
+    .wrapmenu{
+        background-color: #848484;
+        width: 108px;
+        height: 200px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+    .top{
+        display: block;
+    }
 
+    .main-menu li{
+        display: block;
+    }
+    .main-menu{
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        padding-top: 5px;
+    }
+    .social-menu li{
+        display: block;
+        float: right;
+        padding-right: 10px;
+    }
+    .social-menu{
+        position: absolute;
+        top: 104px;
+        right: 26px;
+        display: inherit;
+    }
+    .search img{
+        display: none;
+    }
+    .logo{
+        padding-top: 28px;
+        width: 100px;
+        float: left;
+    }
+    .intro p {
+        font-size: 52px;
+        line-height: 34px;
+    }
+    /*end header*/
+    /*start about us*/
+    .animation1{
+        display: none;
+    }
+    .animation2{
+        display: none;
+    }
+    .aboutme{
+        display: block;
+        height: 900px;
+    }
+    .picture{
+        text-align: center;
+    }
+    .about{
+        margin-top: 35px;
+        text-align: center;
+        width: 100%;
+    }
+    .about h2{
+        width: 100%;
+    }
+    .btn{
+        text-align: center;
+    }
+    /*end about*/
+    /*start our service*/
+    .ourservice{
+        height: 100%;
+    }
+    .boxwrap{
+        height: 1048px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        margin-bottom: 10px;
+    }
+    /*end our service*/
+    /*start our experince*/
+    .ourexperince{
+        height: 660px;
+    }
+    .wrapexperiace{
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        align-items: flex-start;
+    }
+    .text2 p{
+        width: 324px;
+        height: 55px;
+    }
+    .text2 h4{
+        margin-bottom: 20px;
+    }
 
+    .line{
+        display: none;
+    }
+    .text1{
+        width: 215px;
+    }
+    .text1 h4{
+        text-align: left;
+        width: 210px;
+    }
+    .cube{
+        margin-bottom: 44px;
+    }
+    /*end experince*/
+    /*start our portfolio*/
+    .count{
+        width: 300px;
+    }
+    .portfolio{
+        height: 2000px;
+    }
 }
-	.menu li{
-		display: block;
-		margin-bottom: -23px;
-	}
-	.logo{
-		margin-left:20px;
-	}
-	.menu a{
-		color: #ffffff;
-	    font-size: 24px;
-	    font-weight: bold;
-	}
-	.onclik {
-		width: 50px;
-	    height: 50px;
-	    margin-left: 25px;
-	    position: absolute;
-	    margin-top: 20px;
-	    background-image: url(../images/threelines.png);
-	    background-size: cover;
-	    display: block;
-	    background-position-x: -11px;
-	    border: none;
-	}
-	.banner p{
-		color: #fef8fd;
-	    width: 646px;
-	    padding-left: 34px; 
-	    padding-top: 25px;
-	    padding-bottom: 40px;
-	    line-height: 32px;
-	    font-size: 19px;
-	    font-style: italic;
-	    font-family: 'Open Sans Condensed', sans-serif;
-	}
-	.box{
-		margin-top: 72px;
-		display: block;
-	}
-	.aboutus{
-		display: block;
-		height: 1100px;
-
-	}
-	.media{
-		display: flex;
-    	flex-direction: column;
-    	height: 1176px;
-	}
-	.media img{
-		display: flex;
-		align-items: flex-start;
-		margin-bottom: 20px;
-	}
-	.headline{
-		display: block;
-	}
-	.headline h3{
-		width: 400px;
-	}
-	.article{
-		width: 400px;
-	}
-	.article span{
-		display: block;
-	}
-	.ourservices{
-		margin-top: 200px;
-		margin-bottom: 428px;
-	}
-	.latestnews{
-		margin-top: 265px;
-		margin-bottom: 150px;
-	}
-	.line{
-		margin-top: 100px;
-	}
-	.leftrightblock{
-		display: block;
-	}
-	.right{
-		height: 800px;
-	}
-	.footerbottom{
-		margin-top: 340px;
-	}
-	.arrowbottom{
-		display: none;
-	}
+/*end portfolio*/
+/*start contact*/
+.contact{
+    height: 964px;
 }
+.fillform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.wrapform{
+    margin-bottom: 26px;
+    width: 331px;
+}
+.formcontros{
+    width: 150px;
+    display: block;
+}
+textarea{
+    width: 300px;
+}
+
+
+

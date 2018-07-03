@@ -1,5 +1,90 @@
-@keyframes zoomin {
+@keyframes zoom {
+    0%{
+        transform: scale(1.0);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes picture {
+    0%{
+        border-color: green;
+    }
+    25%{
+        border-color: #d9bf77;
+    }
+    50%{
+        border-color: rgba(218, 65, 50, 0.9);
+    }
+    100%{
+        border-color: rgba(69, 84, 195, 0.89);
+    }
+}
+@keyframes circlemove1 {
+    0%{
+        margin-top:500px;
+    }
+    25% {
+        margin-top: 0;
+    }
+}
+@keyframes circlemove2 {
+    0%{
+        margin-top: 0;
+    }
+    25%{
+        margin-top: 480px;
+    }
 
 }
+@keyframes circlemove4 {
+    0%{
+        margin-top: 500px;
+        transform: rotate(180deg);
+    }
+    25%{
+        margin-top: 0;
+        transform: rotate(60deg);
+    }
+}
+@keyframes circlemove3 {
+    0%{
+        margin-top: 500px;
+    }
+    25%{
+        margin-top: 0;
+    }
 
-
+}
+@keyframes cubeincube {
+    0%{
+        border: 2px solid rgba(211, 173, 0, 0.82);
+    }
+    50%{
+        border: 2px solid rgba(201, 0, 0, 0.54);
+    }
+    75%{
+        border: 2px solid rgba(201, 0, 0, 0.54);
+    }
+    100%{
+        border: 2px solid rgba(211, 173, 0, 0.82);
+    }
+}
+/*@keyframes tile {
+    0%{
+        transition:all ease-in;
+        width: 300px;
+        height: 300px;
+    }
+    100%{
+        transition:all ease-out;
+        width: 350px;
+        height: 350px;
+    }
+}*/
