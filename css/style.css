@@ -545,7 +545,7 @@ sup{
 .info{
     display: flex;
     align-items: flex-start;
-    flex-basis: 50%;
+    padding-top: 169px;
 }
 .wrapform {
     padding-left: 7%;
@@ -566,7 +566,7 @@ sup{
     padding-left: 50px;
 }
 .cords li{
-    padding-bottom: 32px;
+    padding-bottom: 43px;
 }
 .cords span{
     font-size: 22px;
@@ -582,13 +582,10 @@ sup{
 }
 .fillform{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
+    flex-direction: column;
 }
 .formcontros{
-    width: 300px;
+    width: 250px;
     height: 50px;
     border-top: 0;
     border-left: 0;
@@ -597,6 +594,7 @@ sup{
     color: rgba(53, 53, 53, 0.91);
     font-size: 16px;
     font-family: arial,sans-serif;
+    margin-right: 40px;
 }
 .fillform fieldset{
     width: 615px;
@@ -609,7 +607,7 @@ sup{
     font-size: 16px;
     font-family: arial,sans-serif;
 }
-.fillbtn button{
+.contactbtn {
     width: 200px;
     height: 46px;
     background-color: initial;
@@ -620,7 +618,7 @@ sup{
     font-size: 14px;
     color: #777777;
 }
-.fillbtn button:hover{
+.contactbtn:hover{
     background-color: #d9bf77;
     transition: all 1s ease;
 }
@@ -649,7 +647,10 @@ sup{
     width: 25px;
     height: 25px;
 }
-
+.contactwrap{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
